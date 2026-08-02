@@ -26,7 +26,9 @@ build/
 dist/
 *.egg-info/
 
-# Editors and operating systems
-.vscode/
-.DS_Store
-Thumbs.db
+# Ignore VS Code local files
+.vscode/*
+
+# Keep shared workspace settings
+!.vscode/settings.json
+!.vscode/extensions.json
